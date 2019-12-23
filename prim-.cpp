@@ -13,6 +13,6 @@ int main()
 	X a(3,2);
 	X b = a;
 	cout << b.x << b.y;
-	
+	cout << 111;
 	return 0;
 }
