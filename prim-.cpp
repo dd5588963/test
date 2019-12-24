@@ -2,17 +2,17 @@
 #include<fstream>
 #include<string>
 using namespace std;
-class X{
-public:
-	int x;
-	int y;
-	X(int m, int n);
-};
+
 int main()
 {
-	X a(3,2);
-	X b = a;
-	cout << b.x << b.y;
-	cout << 111;
+	ifstream fin("1.txt");
+	char p[5];
+	for (int i = 0; i < 5; i++) {
+		fin >> p[i];
+		cout << p[i];
+		cout << 1111;
+		cout << 2222;
+	}
+	
 	return 0;
 }
